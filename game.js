@@ -118,7 +118,7 @@ function prepareQuestion(id) {
   console.log("inside the prepareQuestion");
   console.log($(".row"));
   $(".row").hide(); // hide the colours
-  if (!questionsandanswers[id]) {preparePattern();}
+  if (!questionsandanswers[id]) {preparePattern();return false;}
   $(".question").html(questionsandanswers[id].question); //this is not very secure
   $(".answers").html("");
   questionsandanswers[id].answers.forEach(function(e,i){$(".answers").append(`<input type="radio" name="answers" id="answer_${i}" value="${i}"> <label for="answer_${i}">${e}</label><br>`)});
