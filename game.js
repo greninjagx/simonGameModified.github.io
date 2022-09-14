@@ -2,23 +2,23 @@
 var buttonColours = ["red", "blue", "green", "yellow"];
 var questionsandanswers=[
   {
-    question: "What is the following lyrics for NKOTB C'est la zone?",
-    answers: ["C'est la zone","On est partout dans le monde","Dans le parler, dans la mode"],
+    question: "What does Evaporation change water to??",
+    answers: ["Evapouration"],
     correct: 0
   },
   {
-    question: "What does “Nouveau monde” translate to",
-    answers: ["Chair","World old","New World"],
+    question: "What process occurs when water changes from a gas to a liquid",
+    answers: ["Condensation"],
     correct: 2
   },
   {
-    question: "j'aimerais danser translation",
-    answers: ["I wanna dance","I'm tired of dancing","I wanna sing","I don’t want to dance"],
+    question: "Where is the purest water on Earth?",
+    answers: ["Glaciers and ice caps"],
     correct: 0
   },
   {
-    question: "Where was soprano born - NKOTB",
-    answers: ["Marseille, France","Rwanda","Paris, France","This is the right answer"],
+    question: "What turns water on the Earth into vapor in the water cycle?",
+    answers: ["the sun", "the moon", "Global warming", ""],
     correct: 0
   },
   {
